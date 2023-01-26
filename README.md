@@ -24,9 +24,10 @@ Run the python program in terminal to get the output.
 Number of words in the txt file is displayed as the output.
 
 ## PROGRAM:
+
 ## Developed by: Manoj karthik R
 ## Reg no:22003728
-
+```
 num_words =0
 with open('python.py','r') as file1:
     for i in file1:
@@ -34,7 +35,7 @@ with open('python.py','r') as file1:
         num_words += len(word)
 print("Number of words={0}".format(num_words))
 
-
+```
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/119560395/214845158-13c95688-3388-4191-906c-55537d276e9a.png)
 
